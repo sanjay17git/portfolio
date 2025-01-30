@@ -109,3 +109,28 @@
     margin-bottom: 1rem;
   }
   
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(72, 187, 120, 0.1);
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    background: var(--primary-light);
+    border: 1px solid rgba(72, 187, 120, 0.1);
+    border-radius: 5px;
+    color: var(--text-primary);
+}
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--accent-blue);
+    outline: none;
+}
